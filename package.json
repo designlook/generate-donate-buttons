@@ -1,0 +1,29 @@
+{
+  "name": "generate-donate-buttons",
+  "version": "1.0.1",
+  "description": "Generate donation buttons for your website - supports Paypal, Venmo, Stripe, GitHub, Coinbase (bitcoin, ethereum, Solana, etc), patreon, Buy Me Coffee, and many more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "donation buttons generator paypal crypto bitcoin solano ethereum patreon buy me coffee"
+  ],
+  "author": "designlook",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designlook/generate-donate-buttons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/designlook/generate-donate-buttons/issues"
+  },
+  "homepage": "https://github.com/designlook/generate-donate-buttons#readme"
+}
